@@ -1,0 +1,42 @@
+ li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+.fa-amazon{
+	color: red;
+	font-size: 200px;
+}
+.fa-apple-pay{
+	color: blue;
+	font-size: 200px;
+}
+.fa-app-store{
+	color: green;
+	font-size: 200px;	
+}
+.fa-spinner{
+	font-size: 200px;
+}
+
+.fa-amazon:hover{
+	transform: rotate(360deg);
+	color: yellow;
+	transition: 1s;
+}
+.fa-apple-pay:hover{
+	transform: rotate(360deg);
+	color: red;
+	transition: 1s;
+}
+.fa-spinner:hover{
+	transform: rotate(360deg);
+	color: orange;
+	transition: 1s;
+}
+.fa-app-store:hover{
+	transform: rotate(360deg);
+	color: purple;
+	transition: 1s;
+}
+.fa-app-store{
+	transition: 1s;
+}
